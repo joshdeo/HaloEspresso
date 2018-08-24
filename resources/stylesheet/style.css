@@ -41,6 +41,10 @@ img {
     transition-timing-function: ease-in-out;
 }
 
+.navlist a:active {
+  color: orange;
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
@@ -97,16 +101,12 @@ img {
   height: 1rem;
   background-color: #373536;
   text-align: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .location h3 {
   color: orange;
   font-family: bebas;
-}
-
-footer {
-
 }
 
 .information {
@@ -149,7 +149,7 @@ footer {
 }
 
 .hoursinfo {
-  margin-right: 13rem;
+  margin-right: 14rem;
 }
 
 .contactinfo {
