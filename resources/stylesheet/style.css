@@ -1,0 +1,157 @@
+html {
+  font-size: 16px;
+  background-color: #373536;
+}
+
+header {
+  background-color: #373536;
+  border-bottom: 0.1rem solid white;
+  height: 8.99rem;
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  width: 8rem;
+}
+
+.navlist {
+  margin-right: 2rem;
+}
+
+.navlist a {
+  color: gray;
+  font-family: bebas;
+  list-style: none;
+  margin-left: 3rem;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.navlist a:hover {
+    color: orange;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  font-family: bebas;
+  margin: 0;
+}
+
+.jumbotron h1 {
+  color: orange;
+}
+
+.teas {
+  display: flex;
+  justify-content: center;
+  background-color: #373536;
+  font-family: bebas;
+}
+
+.teas h3 {
+  color: orange;
+}
+
+.mainimg {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #373536;
+}
+
+.mainimg h4 {
+  text-align: center;
+  font-family: bebas;
+  color: orange;
+}
+
+.mainimg img {
+  width: 300px;
+  height: 240px;
+}
+
+#map {
+  width: 100%;
+   height: 400px;
+   background-color: grey;
+   border-top: 0.1rem solid orange;
+   border-right: 0.1rem solid orange;
+   border-left: 0.1rem solid orange;
+}
+
+.location {
+  height: 1rem;
+  background-color: #373536;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.location h3 {
+  color: orange;
+  font-family: bebas;
+}
+
+footer {
+
+}
+
+.information {
+  border: 0.1rem solid orange;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-family: bebas;
+  display: flex;
+  justify-content: space-around;
+}
+
+.information li {
+  list-style: none;
+  color: orange;
+}
+
+.information h4 {
+  margin-left: 2.5rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.socials a {
+  color: gray;
+}
+
+.socials a:hover {
+  color: orange;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.locationinfo {
+  margin-right: 7rem;
+}
+
+.hoursinfo {
+  margin-right: 13rem;
+}
+
+.contactinfo {
+  margin-right: 7rem;
+}
