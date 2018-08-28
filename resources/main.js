@@ -1,3 +1,16 @@
+$( document ).ready(function() {
+ $(window).scroll(function(){
+   if ($(this).scrollTop() > 400) {
+     $("#imageleft").animate({
+       width: '500px',
+       height: '300px'
+     }, "5000", )
+   }
+ })
+});
+
+
+
 // Initialize and add the map
 function initMap() {
   // The location of Mississauga
