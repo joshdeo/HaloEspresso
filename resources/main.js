@@ -1,10 +1,8 @@
 $( document ).ready(function() {
  $(window).scroll(function(){
    if ($(this).scrollTop() > 400) {
-     $("#imageleft").animate({
-       width: '500px',
-       height: '300px'
-     }, "5000", )
+     $("#imageleft img").animate({ width: '400px', height: '300px' }, 1200, )
+      $("#imageright img").animate({ width: '400px', height: '300px' }, 1200, )
    }
  })
 });
